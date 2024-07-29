@@ -5,7 +5,7 @@ import Interface.ClientInterface.IImmutableList;
 
 public class ImmutableList implements IImmutableList{
 
-    private List<Integer> overallList;
+    private List<Integer> overallList = new ArrayList<>();
 
     // Creating a list from a set of integers
     public ImmutableList(int[] array){
