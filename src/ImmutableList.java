@@ -56,4 +56,9 @@ public class ImmutableList implements IImmutableList{
         return overallList.size();
     }
 
+    @Override
+    public String toString(){
+        
+        return overallList.toString();
+    }
 }
