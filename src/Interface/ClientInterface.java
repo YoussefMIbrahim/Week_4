@@ -1,3 +1,5 @@
+package Interface;
+
 public class ClientInterface {
     
     public interface IImmutableList {
